@@ -1,1 +1,7 @@
 # Auction_Prescriptive_Analytics
+
+Internet auctions have gained widespread popularity and are one of the most successful forms of electronic commerce. There are several decisions that the seller and the platform make at the start of an auction (auction format, reserve prices, duration to name a few). These decisions can have a significant impact on the final selling price and thereby, the revenue of the seller and the platform. We place ourselves in the shoes of Swoopo, which is a bidding fee auction platform and seek to maximize our revenue by altering the bid fee. 
+
+The major challenge of the problem is that the counterfactuals are not observed and we can only estimate to a reasonable degree of accuracy. The high dimensionality of the dataset adds to the difficulty of this problem, leading to the exploration of machine learning approaches.
+
+Swoopo is a bidding fee auction platform, which is a type of auction in which all participants must pay a non-refundable fee to place each small incremental bid. Participants pay a fee to purchase bids. Each of the bids increases the price of the item by a small amount and extends the time of the auction by a few seconds. The major source of revenue for Swoopo is the number of bids placed at any auction times the bid fee. Our hypothesis was that as the bid fee increases, the number of placed bids will decrease. The resulting effect on revenue was studied and a policy for setting the ideal bid fee was established.
